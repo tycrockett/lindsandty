@@ -34,8 +34,10 @@ export default class Navbar extends React.Component {
                                     </a>
                                 </div>
                                 <div className="registryItem">
-                                    <img alt="venmo" className="registryImg" src={venmo} />
-                                    <p className="amazonP">Venmo</p>
+                                    <a href="https://venmo.com/code?user_id=2382321864933376120">
+                                        <img alt="venmo" className="registryImg" src={venmo} />
+                                        <p className="amazonP">Venmo</p>
+                                    </a>
                                 </div>
                             </div>
                             
