@@ -11,8 +11,9 @@ export default class Navbar extends React.Component {
                 </div>
                 <div className="rightNav">
                     <ul className="flexStyle">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScyPUBv0OOaM8yg3lRRkhgzybl3i7Pb_VHn7VXjpf-d6J7hbw/viewform" className="list"><li >RSVP</li></a>
                         <li className="list">About Us</li>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScyPUBv0OOaM8yg3lRRkhgzybl3i7Pb_VHn7VXjpf-d6J7hbw/viewform" className="list"><li >RSVP</li></a>
+                        <a href="https://goo.gl/maps/AowMFr7QTsP2"><li className="list">Directions</li></a>
                     </ul>
                 </div>
             </div>
