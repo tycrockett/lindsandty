@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 p {
     margin: 0; }
 a {
@@ -83,6 +86,88 @@ a {
 
 }
 
+.aboutus {
+    color: white;
+    font-size: 300%;
+    margin-top: 25px;
+    margin-left: 10%;
+    font-family: 'Lobster', cursive;
+}
+
+.aboutusp {
+    color: #333;
+    border-radius: 50px;
+    margin-left: 10%;
+    margin-right: 26%;
+    padding: 2%;
+    font-size: 125%;
+}
+
+.convoher {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.convohim {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.imgDiv {
+    width: 10%;
+    padding: 10%;
+    padding-top: 5%;
+}
+
+.herIMG {
+    width: 100%;
+    margin-left: 50%;
+    border-radius: 50%;
+}
+
+.himIMG {
+    width: 100%;
+    margin-left: -50%;
+    border-radius: 50%;
+}
+
+.together {
+    width: 50%;
+    background-color: #f5f5f5;
+    border: 5px solid rgb(255, 181, 147);
+    border-radius: 50px;
+    border-top-left-radius: 0px;
+    padding: 25px;
+    margin: 3%;
+    text-align: center;
+}
+
+.her {
+    color: #333;
+    text-align: left;
+}
+
+.him {
+    color: #333;
+    border-radius: 50px;
+    border-top-right-radius: 0px;
+    text-align: right;
+}
+
+.us {
+    color: #333;
+    border-top-right-radius: 0px;
+    width: 80%;
+}
+
+.them {
+    color: white;
+    margin: 2%;
+    font-family: 'Lobster', cursive;
+    font-size: 140%;
+    text-align: center;
+}
+
 @media only screen and (max-width: 1000px) {
 
     .mainImgDiv {
@@ -119,5 +204,52 @@ a {
         padding-top: 0px;
         padding-bottom: 5%;
     }
+
+    .aboutus {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .aboutusp {
+        margin: 0px;
+    }
+
+    .imgDiv {
+        min-width: 100px;
+        
+    }
+
+    .together {
+        min-width: 100px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .imgDiv {
+        min-width: 100px;
+        margin: auto;
+        padding: 0px;
+    }
+
+    .herIMG {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .himIMG {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .together {
+        width: 80%;
+        min-width: 100px;
+        margin-left: 10%;
+        
+    }
+
 
 }
