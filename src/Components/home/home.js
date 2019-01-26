@@ -78,7 +78,7 @@ export default class Navbar extends React.Component {
                         </div>
 
                         <div className="convohim">
-                            <p className="him together">Lindsay wouldn’t stop singing “And a knick knack paddy whack, give the dog a bone!” in the car on the way to Utah lake. Her singing is still on of the reasons I love her. That was a very special night and when she said yes to me I was elated.</p> 
+                            <p className="him together">Lindsay wouldn’t stop singing “And a knick knack paddy whack, give the dog a bone!” in the car on the way to Utah lake. Her singing is still one of the reasons I love her. That was a very special night and when she said yes to me I was elated.</p> 
                             <div className="imgDiv"><img src={ty} alt='ty' className='himIMG'/></div>
                         </div>
                         <p className="them">We’re very excited to get married in the Provo City Center Temple, and for our friends and family to be joining us at our wedding celebration at the Vista at Cedar Hills!</p>

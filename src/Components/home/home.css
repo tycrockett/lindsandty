@@ -248,7 +248,11 @@ a {
         width: 80%;
         min-width: 100px;
         margin-left: 10%;
-        
+    }
+
+    .us {
+        width: 70%;
+        margin-left: 10%;
     }
 
 
