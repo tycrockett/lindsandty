@@ -66,7 +66,7 @@ export default class Navbar extends React.Component {
                             <div className="imgDiv"><img src={ty} alt='ty' className='himIMG'/></div>
                         </div>
 
-                        <p className="us together">We had so much fun together and never stopped laughing. We have spent almost every day together since. We knew we wanted to get marrired within a month of meeting for the first time.</p>
+                        <p className="us together">We had so much fun together and never stopped laughing. We have spent almost every day together since. We knew we wanted to get married within a month of meeting for the first time.</p>
                         <br/>
                         <hr/>
                         <p className="them">The Proposal</p>
